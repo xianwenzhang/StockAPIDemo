@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:background="@color/white"
+    android:paddingRight="15dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_fund"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="基金"
+        android:background="@drawable/home_grey_text_rectangle_shape"
+        android:textColor="@color/a4b0"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_stock"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="股票"
+        android:background="@drawable/home_grey_text_rectangle_shape"
+        android:textColor="@color/a4b0"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_nlp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/home_grey_text_rectangle_shape"
+        android:gravity="center"
+        android:text="资讯"
+        android:textColor="@color/a4b0"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_sam"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/home_grey_text_rectangle_shape"
+        android:gravity="center"
+        android:text="特色数据"
+        android:textColor="@color/a4b0"
+        android:textSize="15sp" />
+
+</LinearLayout>
